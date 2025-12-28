@@ -1,0 +1,6 @@
+*.pdf
+*.part
+*.tmp
+.DS_Store
+categories.txt
+categories.tsv
