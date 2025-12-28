@@ -1,6 +1,10 @@
 # Frens Library Curator
 This Library Curator is a portable Bash script for mirroring public-domain PDF books from the Frenschan Library. It preserves a large, historically significant collection from a controversial website pending shutdown, using stable IDs and resumable downloads.
 
+If you're just looking for the script, start here:
+
+[dl.sh | view and save script here.](https://github.com/IAmNathanPalmer/Frens-Library-Curator/blob/main/dl.sh)
+
 The repository contains **only the script** and should run on cross-platform on macOS, Linux or Windows via WSL.
 
 ---
@@ -36,16 +40,16 @@ Windows users should run this via **WSL**.
    cd library
    ```
 
-2. Copy the script into this directory (for example as `grab.sh`).
+2. Copy the script into this directory (for example as `dl.sh`).
 
 3. Make it executable from this directory:
    ```sh
-   chmod a+x grab.sh
+   chmod a+x dl.sh
    ```
 
 4. Run it:
    ```sh
-   ./grab.sh
+   ./dl.sh
    ```
 
 5. Wait. The script will take a long time to complete depending on connection speed.
